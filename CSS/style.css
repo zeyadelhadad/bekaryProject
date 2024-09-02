@@ -1,0 +1,619 @@
+/* =========shared tags ======== */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+
+}
+
+.clear-fix
+{
+    clear: both;
+}
+/* ========Section Home  ========= */
+
+div.home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div.welcome
+{
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+div.welcome h1
+{
+    margin-block: 25px;
+    font-size: 76px;
+    font-weight: 100;
+}
+
+div.welcome h3
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+div.welcome p
+{
+    color: rgba(255,255,255, .92);
+    font-size: 24px;
+    font-weight: 100;
+}
+
+div.welcome button
+{
+    margin-top: 20px; 
+    border-radius: 5%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.home div.welcome .butt-1
+{
+    padding: 15px 28px;
+    margin-right: 5px;
+    background-color: #8e7754;
+    border: 0;
+
+}
+
+div.home div.welcome .butt-1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+div.home div.welcome .butt-2
+{
+    border: 2px solid white;
+    padding: 15px 28px;
+    background-color: transparent;
+
+}
+div.home div.welcome .butt-2:hover
+{
+    background-color: white;
+    color: black;
+}
+
+div.home .scroll
+{
+    width: 5px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 40%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+/* -----------END SECTION HOME------------- */
+
+
+/* ========Section Nav-Home  ========= */
+
+div.home div.navbar
+{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+div.home div.layer
+{
+    width: 100%;
+}
+
+div.home div.navbar div.logo
+{
+    width: 176px;
+    height: 48px;
+    padding-top: 10px;
+    float: left;
+}
+div.home div.navbar div.logo img
+{
+    width: 100%;
+}
+
+div.home div.navbar div.nav-list
+{   
+    width: 45%;
+    float: right;
+}
+div.home div.navbar div.nav-list ul
+{
+    list-style: none;
+}
+
+div.home div.navbar div.nav-list ul li
+{
+    display: inline-block;
+    font-size: 20px;
+    padding-inline: 5px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+div.home div.navbar div.nav-list ul li a
+{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+div.home div.navbar div.nav-list ul li a:hover
+{
+    color: #ff305b;
+}
+/* ---------------END SECTION NAVBAR -------------------- */
+
+
+/* ==================Section About===================== */
+
+div.about
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+div.about div.img1
+{
+    width: 45%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+
+}
+
+div.about div.img1 img
+{
+    width: 100%;
+}
+
+div.about div.who
+{
+    width: 45%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+div.about div.who div.who-are h2
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;;
+}
+
+div.about div.who img
+{
+    width: 100%;
+}
+div.about div.who div.table
+{
+    width: 40%;
+    margin-right: 50px;
+    padding-block: 20px;
+}
+
+div.about div.who div.table img
+{
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, .15);;
+    border-radius: 50%;
+    margin-block: 10px;
+    margin-inline: 5px;
+}
+
+div.about div.who div.table p
+{
+    font-size: 17px;
+    font-weight: 400;
+    width: 270px;
+}
+
+/* ==========END ABOUT ============= */
+
+/* ---------- Our Baking ----------*/
+
+.location
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+div.location div.parent
+{
+    width: 90%;
+    margin: auto;
+    margin-block: 50px;
+    padding-top: 90px;
+}
+
+.location div.parent div.our-location
+{
+    width: 45%;
+    margin-top: 60px;
+    float: left;
+}
+
+.location div.our-location h2
+{
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.location div.our-location p
+{
+    font-size: 20px;
+    font-weight: 100;
+    color: #686868;
+}
+
+.location div.our-location div.par2
+{
+    margin-top: 20px;
+}
+
+div.location div.parent div.img2
+{
+    width: 45%;
+    float: right;
+}
+
+div.location div.parent div.img2 img
+{
+    width: 100%;
+}
+/*============= END LOCATION =============== */
+
+/* ------------Our Baking --------------- */
+div.baking
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.baking div.container 
+{
+    width: 90%;
+    margin: auto;
+}
+
+div.baking div.container div.our-baking 
+{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+div.baking div.container div.our-baking h2
+{
+    font-size: 30px;
+    font-weight: 400;
+    padding-block: 20px;
+    color: #303030;
+}
+
+div.baking div.container div.our-baking p
+{
+    font-size: 17px;
+    color: #888;
+}
+
+div.baking div.container div.category
+{
+    width: 100%;
+}
+div.baking div.container div.category div.same img
+{
+    width: 100%;
+}
+div.baking div.container div.category div.same
+{
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+div.baking div.container div.category div.item3
+{
+    float: right;
+}
+div.baking div.container div.category div.item2
+{
+    margin-left: 35px;
+}
+
+div.baking div.container div.category div.same h3
+{
+    padding-block: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #303030;
+}
+
+div.baking div.container div.category div.same p
+{
+    font-size: 17px;
+    font-weight: 100;
+    color: #686868;
+}
+
+/* END BAKING ================== */
+
+
+/* CONTACT ================= */
+.contact
+{
+    width: 90%;
+    margin: auto;
+    background-color: #f8f8f8;
+}
+.contact .details
+{
+    width: 50%;
+    float: left;
+}
+.contact .details .info
+{
+    width: 100%;
+    
+    text-align: left;
+    
+}
+.contact .details .info h2
+{
+    margin-bottom: 25px;
+    padding-top: 35px;
+    color: #303030;
+    font-size: 32px;
+    font-weight: 200;
+}
+.contact .details .info p
+{
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #686868;
+}
+.contact .details .info h4
+{
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact .our-contact
+{
+    width: 100%;
+  
+    
+}
+.our-contact img
+{
+    width: 100%;
+}
+.our-contact .imge1
+{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #8e7754;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.our-contact h4
+{
+    margin-top: 20px;
+    font-weight: 100;
+}
+.contact .gps
+{
+    width: 40%;
+    height: 545px;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+/* ===========contact=========== */
+
+/*=============footer===========*/
+
+.footer
+{
+    width: 100%;
+    background-color:#403d38;
+}
+.Aabout
+{
+  
+    width: 20%;
+    
+}
+.Aabout h4
+{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Aabout p
+{
+    margin-bottom: 20px;
+}
+.Why
+{
+    
+    width: 20%;
+    
+}
+.Why h4
+{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.opening
+{
+  
+    width: 20%;
+    
+}
+.opening h4
+{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+.contdet
+{
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    
+    position: relative;
+}
+.item7
+{
+    position: absolute;
+    top: 20%;
+    opacity: .2;
+}
+.contdet h4
+{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.flo
+{
+    float: left;
+    color: #969696;
+    padding-top: 40px;
+    margin: 0% 2.5%;
+}
+.flo h4
+{
+    color: #f8f8f8;
+}
+.footer ul
+{
+    list-style-type: none;
+}
+.footer .flo li
+{
+    padding-bottom: 10px;
+    
+}
+.footer .flo a
+{
+    color: #f8f8f8;
+    text-decoration: none;
+}
+hr
+{
+    width: 250px;
+    border: none ;
+    background-color: #969696;
+    height: 0.5px;
+}
+/*------------footer-------------*/
+
+/*=========end===========*/
+
+.end
+{
+    width: 100%;
+    background-color: #1b1b1b;
+    margin: auto;
+    padding-top: 50px;
+}
+.center
+{
+    width: 40%;   
+    margin: auto;
+}
+div.end div.center h6
+{
+    font-size: 15px;
+    color: #777;
+}
+
+.social img
+{
+    width: 40px;
+    height: 40px;
+    background-color: #7777774d;
+    border-radius: 100%;
+    transition: .2s;
+}
+
+.social img:hover
+{
+    background-color: #ff305b;
+}
+.social img td
+{
+    margin-left: 10px
+}
+.end .center .last-imge
+{
+    width: 65%;
+    margin: auto;
+}
+.end .center .last-imge img
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.end .center .social
+{
+    width: 40%;
+    margin: auto;
+}
+.copyright
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.padd
+{
+    padding-left: 10px;
+}
